@@ -17,7 +17,7 @@ const int resolution = 8;
   Serial.print("\n");
   return analog;
 }*/
-
+//assaasas
 void setup() {
   Serial.begin(115200);
   pinMode(left,INPUT);

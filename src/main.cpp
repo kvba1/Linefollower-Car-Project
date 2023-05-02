@@ -11,8 +11,8 @@ const int freq = 5000;
 const int ledChannel = 0;
 const int resolution = 8;
 
-/*int IR_sensor_value(int anal_pin){
-  int analog = analogRead(anal_pin);
+/*int IR_sensor_value(int analog_pin){
+  int analog = analogRead(analog_pin);
   Serial.print(analog);
   Serial.print("\n");
   return analog;
@@ -41,18 +41,18 @@ void setup() {
 }
 
 void loop() {
-int anal_lewy = analogRead(left);
-int anal_srodkowy = analogRead(middle);
-int anal_prawy = analogRead(right);
-Serial.print(anal_lewy);
+int analog_lewy = analogRead(left);
+int analog_srodkowy = analogRead(middle);
+int analog_prawy = analogRead(right);
+Serial.print(analog_lewy);
 Serial.print(" - lewy\n");
-Serial.print(anal_srodkowy);
+Serial.print(analog_srodkowy);
 Serial.print(" - srodkowy\n");
-Serial.print(anal_prawy);
+Serial.print(analog_prawy);
 Serial.print(" - prawy\n");
 Serial.print("\n");
-if (anal_lewy > anal_prawy) Serial.print("skrec w prawo");
-if (anal_prawy > anal_lewy) Serial.print("skrec w lewo");
+if (analog_lewy > analog_prawy) Serial.print("skrec w prawo");
+if (analog_prawy > analog_lewy) Serial.print("skrec w lewo");
 Serial.print("\n");
 Serial.print("\n");
 ledcWrite(1, 255);

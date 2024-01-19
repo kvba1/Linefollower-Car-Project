@@ -1,5 +1,4 @@
-# linefollower-IPZ
-Project of line-follower car with RC mode
+Project of a line-follower car with RC mode
 
 ![68747470733a2f2f696d672e796f75747562652e636f6d2f76692f7070415f646145646c46452f302e6a7067](https://github.com/kvba1/linefollower-IPZ/assets/128424095/1addbd99-7021-463c-ab8e-33a6b85bf792)
 
